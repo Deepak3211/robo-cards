@@ -31,6 +31,7 @@ transition-timing-function: ease-in-out ;
 background: rgb(11, 138, 197);
 transform: skew(2deg,5deg);
 transition: all 2s;
+cursor: pointer;
 }
 
 .box{
