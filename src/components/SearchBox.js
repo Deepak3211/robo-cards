@@ -1,14 +1,14 @@
 import React from 'react';
-import '../Card.css'
+import './Card.css'
 
 const SearchBox = ({searchField, searchChange}) =>{
 
   return (
 
-    <div className = 'box'>
-    <h1>Robo Friends</h1>
-    <input className = 'search'
-    type='search' placeholder = 'search robots' onChange = {searchChange} />
+    <div className ='search'>
+    <h1 className = 'robo'>Robo Cards</h1>
+    
+    <input className ='dataSearch' type="search" placeholder = 'search robots' onChange = {searchChange}/>
     </div>
   )
 }

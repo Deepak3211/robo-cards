@@ -1,0 +1,65 @@
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cards{
+
+  display: inline-flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center; 
+  margin: .5rem;
+  padding: 2px;
+  /* height: 100vh; */
+  /* width: 100vw; */
+  
+  background-image: linear-gradient(to bottom right, rgb(69, 239, 245), yellow);
+
+}
+.card{
+  /* margin-top: 1rem; */
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 30px;
+  cursor: pointer;
+  /* border: 1px solid aqua; */
+  transition: all 3s;
+
+}
+.card:hover{
+
+  background-color: rgb(189, 37, 121);
+  transform: rotate3d(2,-1,-1, -0.2turn)
+}
+.card-body{
+  background-color: rgb(236, 118, 185);
+
+}
+.search{
+  padding: 3px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: center;
+
+}
+.dataSearch{
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgb(37, 154, 189);
+  transition: all 3s;
+  
+
+}
+.dataSearch:hover{
+  background-color: bisque;
+}
+.robo{
+  text-align: center;
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 4px 4px 2px red;
+}
